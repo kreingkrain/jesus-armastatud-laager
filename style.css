@@ -1,0 +1,46 @@
+:root {
+  --bg: #f4f9ff;
+  --primary-400: #6bb9ff;
+  --primary-500: #3a98f0;
+  --primary-600: #1b7ed6;
+  --ink: #0f172a;
+  --muted: #475569;
+  --card: #ffffff;
+  --shadow: 0 10px 25px rgba(31, 94, 156, .12);
+  --radius: 18px;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans Thai", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.container { max-width: 1100px; margin: auto; padding: 24px }
+
+header.hero {
+  background: linear-gradient(135deg, var(--primary-400), var(--primary-500));
+  color: #fff;
+  padding: 56px 28px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.title { font-size: 32px; font-weight: 800; margin: 0 }
+.subtitle { font-size: 18px; margin: 8px 0 16px }
+
+.badges { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 12px 0 }
+.badge { background: rgba(255,255,255,.2); padding: 8px 12px; border-radius: 999px; color: #fff; font-size: 14px }
+
+.btns { margin-top: 20px; display: flex; gap: 12px; flex-wrap: wrap; justify-content: center }
+.btn { padding: 12px 16px; border-radius: 12px; font-weight: 600; text-decoration: none }
+.btn.primary { background: var(--primary-500); color: #fff }
+.btn.ghost { background: #fff; color: var(--primary-600); border: 1px solid var(--primary-400) }
+.btn.register { background: #00c16a; color: #fff }
+
+.section { margin-top: 28px }
+.card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px }
+
+footer { text-align: center; margin: 40px 0 16px; color: var(--muted); font-size: 14px }
