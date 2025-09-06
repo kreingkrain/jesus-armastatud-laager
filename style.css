@@ -28,7 +28,7 @@ header.hero {
   text-align: center;
 }
 
-.title { font-size: 32px; font-weight: 800; margin: 0 }
+.title { font-size: 28px; font-weight: 800; margin: 0 }
 .subtitle { font-size: 18px; margin: 8px 0 16px }
 
 .badges { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 12px 0 }
