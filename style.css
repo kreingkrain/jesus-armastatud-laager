@@ -73,7 +73,7 @@ header.hero.small {
   /* max-width: 320px;
   border-radius: 12px;
   box-shadow: var(--shadow); */
-  max-width: 320px;
+  max-width: 280px;
   margin: 12px auto;
   display: block; /* ทำให้รูปอยู่กลาง */
 }
