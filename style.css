@@ -28,7 +28,7 @@ header.hero {
   text-align: center;
 }
 
-.title { font-size: 28px; font-weight: 800; margin: 0 }
+.title { font-size: 26px; font-weight: 800; margin: 0 }
 .subtitle { font-size: 18px; margin: 8px 0 16px }
 
 .badges { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 12px 0 }
@@ -78,4 +78,28 @@ header.hero.small {
 }
 .btn.line:hover {
   background: #05a046;
+}
+/* ตารางกิจกรรม */
+.schedule-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.schedule-list li {
+  padding: 8px 12px;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.schedule-list li:last-child {
+  border-bottom: none;
+}
+
+.schedule-list .time {
+  display: inline-block;
+  min-width: 120px;
+  font-weight: 600;
+  color: #3b82f6;
 }
