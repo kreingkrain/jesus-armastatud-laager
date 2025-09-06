@@ -30,6 +30,7 @@ header.hero {
 
 .title { font-size: 26px; font-weight: 800; margin: 0 }
 .subtitle { font-size: 18px; margin: 8px 0 16px }
+.subtitle.warning { font-size: 18px; margin: 8px 0 16px; color:coral; }
 
 .badges { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 12px 0 }
 .badge { background: rgba(255,255,255,.2); padding: 8px 12px; border-radius: 999px; color: #fff; font-size: 14px }
