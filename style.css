@@ -119,6 +119,8 @@ header.hero.small {
 
 #backToTop {
   position: fixed;
+  width: 35px;
+  height: 35px;
   bottom: 20px;
   right: 20px;
   z-index: 99;
@@ -136,6 +138,6 @@ header.hero.small {
 }
 
 #backToTop:hover {
-  background-color: #1e90ff;
+  background-color: #4fa2f486;
   transform: translateY(-3px);
 }
