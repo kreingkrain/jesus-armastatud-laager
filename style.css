@@ -44,3 +44,38 @@ header.hero {
 .card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px }
 
 footer { text-align: center; margin: 40px 0 16px; color: var(--muted); font-size: 14px }
+
+header.hero.small {
+  padding: 32px 20px;
+}
+
+.steps {
+  list-style: decimal inside;
+  padding-left: 0;
+}
+
+.steps li {
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.qr {
+  margin-top: 12px;
+  max-width: 200px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.btn.line {
+  background: #06c755;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn.line:hover {
+  background: #05a046;
+}
