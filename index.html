@@ -52,8 +52,8 @@
     <section id="schedule" class="section card">
       <h2>📅 ตารางกิจกรรม</h2>
       <!-- <p>ดูรายละเอียดตารางกิจกรรมในเนื้อหาหลัก</p> -->
-      <h1 class="title" href="schedule.html">ดูรายละเอียดตารางกิจกรรม</h1>
-      <!-- <a class="btn ghost" href="schedule.html">ดูรายละเอียดตารางกิจกรรม</a> -->
+      <!-- <h1 class="title" href="schedule.html">ดูรายละเอียดตารางกิจกรรม</h1> -->
+      <a class="btn ghost" href="schedule.html">ดูรายละเอียดตารางกิจกรรม</a>
     </section>
 
     <!-- RULES -->
@@ -73,5 +73,23 @@
       © 2025 กลุ่มลูกรักพระเยซูคริสต์ • Static Site
     </footer>
   </div>
+
+  <button id="backToTop" title="กลับด้านบน">⬆️</button>
+  <script>
+    const backToTopBtn = document.getElementById("backToTop");
+
+    window.onscroll = function () {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    };
+
+    backToTopBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+
 </body>
 </html>
