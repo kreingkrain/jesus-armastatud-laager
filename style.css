@@ -41,7 +41,7 @@ header.hero {
 .btn.register { background: #00c16a; color: #fff }
 
 .section { margin-top: 28px }
-.card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px; text-align: center; /* จัดข้อความกลาง */}
+.card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px;}
 
 footer { text-align: center; margin: 40px 0 16px; color: var(--muted); font-size: 14px }
 
