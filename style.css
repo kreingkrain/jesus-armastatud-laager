@@ -41,7 +41,7 @@ header.hero {
 .btn.register { background: #00c16a; color: #fff }
 
 .section { margin-top: 28px }
-.card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px }
+.card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px; text-align: center; /* จัดข้อความกลาง */}
 
 footer { text-align: center; margin: 40px 0 16px; color: var(--muted); font-size: 14px }
 
@@ -50,20 +50,29 @@ header.hero.small {
 }
 
 .steps {
-  list-style: decimal inside;
-  padding-left: 0;
+  /* list-style: decimal inside;
+  padding-left: 0; */
+  list-style: none;     /* เอาหมายเลข ol ออก */
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block; /* ทำให้ ol อยู่กลาง */
+  text-align: left;      /* แต่ละ step ยังชิดซ้ายใน block */
 }
 
 .steps li {
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
   font-size: 16px;
+  margin: 16px 0;
 }
 
 .qr {
   margin-top: 12px;
-  max-width: 200px;
+  /* max-width: 320px;
   border-radius: 12px;
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow); */
+  max-width: 320px;
+  margin: 12px auto;
+  display: block; /* ทำให้รูปอยู่กลาง */
 }
 
 .btn.line {
